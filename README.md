@@ -1,6 +1,6 @@
 # node-gimp
 
-Node can talk to GIMP!
+Send Script-Fu commands from Node.js to GIMP. Can be used to set colors, create text or layers, run filters, you name it. 
 
 @todo insert cool video
 
@@ -15,7 +15,7 @@ import Gimp from 'node-gimp';
 (async function main() {
 	const gimp = new Gimp();
 	const res = await gimp.sendCommand('(gimp-image-list)');
-	console.log(res); // => 
+	console.log(res); // => "(1 #(1))"
 })();
 
 ```
