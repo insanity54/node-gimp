@@ -1,0 +1,10 @@
+{
+  "name": "node-gimp",
+  "version": "0.0.1",
+  "description": "GIMP Script-Fu Server integration for node.js",
+  "main": "Gimp.js",
+  "repository": "https://github.com/insanity54/node-gimp",
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "Unlicense",
+  "private": false
+}
