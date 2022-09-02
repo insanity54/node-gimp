@@ -6,5 +6,15 @@
   "repository": "https://github.com/insanity54/node-gimp",
   "author": "Chris Grimmett <chris@grimtech.net>",
   "license": "Unlicense",
-  "private": false
+  "private": false,
+  "scripts": {
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  },
+  "dependencies": {
+    "binary-data": "^0.6.0"
+  }
 }
