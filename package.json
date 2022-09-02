@@ -16,5 +16,14 @@
   },
   "dependencies": {
     "binary-data": "^0.6.0"
-  }
+  },
+  "keywords": [
+    "gimp",
+    "script-fu",
+    "TinyScheme",
+    "socket",
+    "communication",
+    "10008",
+    "automation"
+  ]
 }
