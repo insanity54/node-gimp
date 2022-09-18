@@ -8,14 +8,20 @@
   "license": "Unlicense",
   "private": false,
   "scripts": {
-    "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest) --runInBand --detectOpenHandles"
   },
   "type": "module",
   "devDependencies": {
-    "jest": "^29.0.1"
+    "jest": "^29.0.1",
+    "jest-tobetype": "^1.2.3"
   },
   "dependencies": {
-    "binary-data": "^0.6.0"
+    "baby-racket": "^2.0.3",
+    "binary-data": "^0.6.0",
+    "fastq": "^1.13.0",
+    "lisp": "^1.0.0",
+    "my-little-schemer": "^1.0.0",
+    "schemelang": "^1.5.0"
   },
   "keywords": [
     "gimp",
